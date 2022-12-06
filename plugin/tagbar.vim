@@ -168,7 +168,7 @@ function! s:setup_keymaps() abort
         \ ['togglepause',           't'],
         \ ['zoomwin',               'x'],
         \ ['close',                 'q'],
-        \ ['help',                  ['<F1>', '?']],
+        \ ['help',                  ['?']],
     \ ]
 
     for [map, key] in keymaps
