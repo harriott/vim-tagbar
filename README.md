@@ -14,3 +14,7 @@ My only tweak is to remove `'<F1>', ` from `tagbar/plugin/tagbar.vim` such that 
     gic '1 commit behind'
     git merge --abort                            # undo the merge
 
+## files on my system
+    $GHrCl/CP/Vim/preservim-tagbar/README.md
+    $vimfiles/pack/packs-cp/opt/tagbar/README.md
+
