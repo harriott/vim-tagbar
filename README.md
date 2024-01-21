@@ -12,7 +12,7 @@ My only tweak is to remove `'<F1>', ` from `tagbar/plugin/tagbar.vim` such that 
     rg HEAD                                      # ripgrep for any conflicts
         in vim: /^<<<<<<< HEAD$\|^=======$\|^>>>>>>> upstream/master$
     ga .                                         # if necessary
-    gic '1 commit behind'
+    gic '2 commits behind'
     git merge --abort                            # undo the merge
 
 ## files on my system
