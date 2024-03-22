@@ -6,13 +6,15 @@ My only tweak is to remove `'<F1>', ` from `tagbar/plugin/tagbar.vim` such that 
 
 ## how I merge this from preservim upstream
 
+    git pull --unshallow
+    git remote add upstream https://github.com/preservim/tagbar
     git remote -v                                # check remote locations
     git fetch upstream                           # grab the changed upstream
     git merge upstream/master -m 'merge message' # merges in the changes
     rg HEAD                                      # ripgrep for any conflicts
         in vim: /^<<<<<<< HEAD$\|^=======$\|^>>>>>>> upstream/master$
     ga .                                         # if necessary
-    gic '2 commits behind'
+    gic '1 commit behind'
     git merge --abort                            # undo the merge
 
 ## files on my system
