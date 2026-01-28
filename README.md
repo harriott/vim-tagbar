@@ -12,7 +12,7 @@ My only tweak is to remove `'<F1>', ` from `tagbar/plugin/tagbar.vim` such that 
     git remote -v                                   # check remote locations
         git remote add upstream https://github.com/preservim/tagbar
     git fetch upstream                              # grab the changed upstream
-    git merge upstream/master -m '3 commits behind' # merges in the changes
+    git merge upstream/master -m '1 commit behind' # merges in the changes
     rg HEAD                                         # ripgrep for any conflicts
         in vim: /^<<<<<<< HEAD$\|^=======$\|^>>>>>>> upstream/master$
     ga .                                            # if necessary
